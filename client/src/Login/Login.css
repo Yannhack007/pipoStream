@@ -1,0 +1,258 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 35%;
+    gap: 1;
+    margin: 2rem;
+    align-items: flex-end;
+    justify-content:space-between;
+    height: 77vh;
+    width: 55vh;
+    background-color: var(--orange);
+    box-shadow: 0px 19px 60px var(--black);
+}
+
+.start-call{
+    position: relative;
+    left: -5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.start-call:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+.logged-title{
+    position: relative;
+    left: -5rem;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.log-champ{
+    position: relative;
+    left: 7rem;
+    margin: 0.7rem;
+}
+
+.log-champ>:nth-child(4){
+    position: relative;
+    top: 2rem;
+}
+
+.log-champ>:nth-child(3){
+    position: absolute;
+    top: 3.5rem;
+}
+
+.log-button{
+    position: absolute;
+    top: 8rem;
+    color: var(--orange);
+    border-radius:34px ;
+    border: none;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(180deg,#09026e 26.71%,#000000 99.36%);
+    box-shadow: 0px 5px 7px 1px rgba(252, 166,31,0.45);
+}
+
+.log-button:hover{
+    color: #fb982f;
+    cursor: pointer;
+    background: linear-gradient(180deg,#ffffff 26.71%,#ffdab1 99.36%);
+}
+
+.log-question{
+    position: relative;
+    top: 10rem;
+}
+
+.log-question>:nth-child(1){
+    margin: 0.7rem;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.log-question>:nth-child(2)>:nth-child(1){
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.log-question>:nth-child(2)>:nth-child(1):hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.login-title{
+    position: absolute;
+    top: 2rem;
+    left: 40%;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.login-form{
+    position: relative;
+    top: 10rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.matricule-label{
+    position: absolute;
+    left: -5rem;
+    font-weight: bold;
+}
+.mdp-label{
+    position: absolute;
+    top: 2.7rem;
+    left: -5rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px){
+    .login{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -5rem;
+        transform: scale(0.8);
+        gap: 1;
+        margin: 2rem;
+        align-items: flex-end;
+        justify-content:space-between;
+        height: 77vh;
+        width: 55vh;
+        background-color: var(--orange);
+        box-shadow: 0px 19px 60px var(--black);
+    }
+    
+    .start-call{
+        position: relative;
+        left: -5rem;
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        font-style: italic;
+    }
+    
+    .start-call:hover{
+        cursor: pointer;
+        color: aqua;
+    }
+    
+    .logged-title{
+        position: relative;
+        left: -5rem;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    
+    .log-champ{
+        position: relative;
+        left: 4rem;
+        top: -3rem;
+        margin: 0.7rem;
+    }
+    
+    .log-champ>:nth-child(4){
+        position: relative;
+        top: 3rem;
+        left: -5.5rem;
+        width: 100px;
+    }
+    .log-champ>:nth-child(2){
+        width: 100px;
+    }
+    
+    .log-champ>:nth-child(3){
+        position: absolute;
+        top: 3.5rem;
+    }
+    
+    .log-button{
+        position: absolute;
+        top: 4rem;
+        color: var(--orange);
+        border-radius:34px ;
+        border: none;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 11px 26px 11px 26px;
+        background: linear-gradient(180deg,#09026e 26.71%,#000000 99.36%);
+        box-shadow: 0px 5px 7px 1px rgba(252, 166,31,0.45);
+    }
+    
+    .log-button:hover{
+        color: #fb982f;
+        cursor: pointer;
+        background: linear-gradient(180deg,#ffffff 26.71%,#ffdab1 99.36%);
+    }
+    
+    .log-question{
+        position: relative;
+        top: 5rem;
+        transform: scale(0.8);
+    }
+    
+    .log-question>:nth-child(1){
+        margin: 0.7rem;
+        font-size: 20px;
+        font-weight: lighter;
+        font-style: italic;
+    }
+    
+    .log-question>:nth-child(2)>:nth-child(1){
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: var(--black);
+    }
+    
+    .log-question>:nth-child(2)>:nth-child(1):hover{
+        color: aliceblue;
+        cursor: pointer;
+    }
+    
+    .login-title{
+        position: absolute;
+        top: 2rem;
+        left: 40%;
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    
+    .login-form{
+        position: relative;
+        top: 10rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .matricule-label{
+        position: absolute;
+        left: -5rem;
+        font-weight: bold;
+    }
+    .mdp-label{
+        position: absolute;
+        top: 2.7rem;
+        left: -5rem;
+        font-weight: bold;
+    }
+
+}
